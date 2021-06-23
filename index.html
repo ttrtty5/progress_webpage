@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>blender渲染进度</title>
+<!-- Custom Theme files -->
+<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+</head>
+<body>
+<div class="card">
+	<h2>场景</h2>
+	<div class="card-top">
+		<h1>场景进度</h1>
+
+	    <div class="forgot">
+	    	<table width="80%">
+			<tr>  <td align="left">工程名:</td>         <td>{filepath}</td></tr>
+			<tr>  <td align="left">当前帧:</td>         <td>{frame_current}</td></tr>
+			<tr>  <td align="left">单帧耗时:</td>       <td>{Rendering_takes_time}</td></tr>
+			<tr>  <td align="left">进度:</td>           <td>{progress}</td></tr>
+			<tr>  <td align="left">预计时间:</td>       <td>{needtime}</td></tr>
+			<!-- <tr>  <td align="left">123:</td>            <td>123</td></tr> -->
+			</table>
+	    </div>
+	</div>
+	<div class="progress-bar">
+		<h3>{progress_bar}</h3>
+	</div>
+</div>
+
+
+</body>
+</html>
