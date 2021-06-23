@@ -3,10 +3,10 @@ bl_info = {
     "author": "ttrtty5",
     "version": (0, 1, 0),
     "blender": (2, 91, 0),
-    "location": "图片编辑器",
+    "location": "图片编辑器-侧边栏-网页-开启服务器",
     "warning": "",
     "description": "网页显示渲染进度",
-    "wiki_url": "https://jq.qq.com/?_wv=1027&k=5VC6gGA",
+    "wiki_url": "https://github.com/ttrtty5/progress_webpage",
     "tracker_url": "",
     "warning": "python版本不低于3.7",
     "category": "3D View"
