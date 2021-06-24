@@ -24,7 +24,7 @@ import importlib
 #TODO
 # 用aiohttp重写服务器模块
 # 我也是写完才发现http.server的文档上面写了此库不能用于生成, 坑太多了
-# https://blog.csdn.net/hu694028833/article/details/80862695?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-6.control
+
 
 class 开启服务器(bpy.types.Operator):
     bl_idname = 'pw.start_server'
