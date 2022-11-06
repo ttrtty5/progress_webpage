@@ -116,7 +116,7 @@ def PW自定义属性卸载():
 class options(PropertyGroup):
     ip: StringProperty(name = 'ip',
     description = '内网ip',
-    default = "192.168.1.2"
+    default = "localhost"
     )
     port: IntProperty(name = "端口",
     min = 1024,
